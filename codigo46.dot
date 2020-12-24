@@ -1,0 +1,76 @@
+digraph Tree {
+		node [shape=plaintext];
+		Bloque0 [label=<
+	<table border="2" cellborder="0" cellspacing="1" bgcolor="lightsalmon" color="black">
+		<tr> 
+			<TD align ="center"><font color="white" >Bloque de Datos</font></TD> 
+		</tr>
+		<tr>
+			<TD align="left"> 1,G,root
+1,U,root,root,12 </TD>
+		</tr>
+	</table>
+	>];
+	
+	Bloque1 [label=<
+	<table border="2" cellborder="0" cellspacing="1" bgcolor="lightsalmon" color="black">
+		<tr> 
+			<TD align ="center"><font color="white" >Bloque de Datos</font></TD> 
+		</tr>
+		<tr>
+			<TD align="left"> 3______
+2,G,Archivos
+3,G, </TD>
+		</tr>
+	</table>
+	>];
+	
+	Bloque2 [label=<
+	<table border="2" cellborder="0" cellspacing="1" bgcolor="lightsalmon" color="black">
+		<tr> 
+			<TD align ="center"><font color="white" >Bloque de Datos</font></TD> 
+		</tr>
+		<tr>
+			<TD align="left"> Arqui
+4,G,Compi 2
+2,U,roo </TD>
+		</tr>
+	</table>
+	>];
+	
+	Bloque3 [label=<
+	<table border="2" cellborder="0" cellspacing="1" bgcolor="lightsalmon" color="black">
+		<tr> 
+			<TD align ="center"><font color="white" >Bloque de Datos</font></TD> 
+		</tr>
+		<tr>
+			<TD align="left"> t,user1,user1
+3,U,Compi 2 </TD>
+		</tr>
+	</table>
+	>];
+	
+	Bloque4 [label=<
+	<table border="2" cellborder="0" cellspacing="1" bgcolor="lightsalmon" color="black">
+		<tr> 
+			<TD align ="center"><font color="white" >Bloque de Datos</font></TD> 
+		</tr>
+		<tr>
+			<TD align="left"> ,user2,user2
+4,U,Compi 2, </TD>
+		</tr>
+	</table>
+	>];
+	
+	Bloque5 [label=<
+	<table border="2" cellborder="0" cellspacing="1" bgcolor="lightsalmon" color="black">
+		<tr> 
+			<TD align ="center"><font color="white" >Bloque de Datos</font></TD> 
+		</tr>
+		<tr>
+			<TD align="left"> user3,user3 </TD>
+		</tr>
+	</table>
+	>];
+	
+	}

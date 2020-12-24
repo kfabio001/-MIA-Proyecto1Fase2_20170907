@@ -7,7 +7,7 @@ digraph Tree {
 	   </TR>
 	   <TR> 
 		   <TD bgcolor='white' >Fecha creación</TD>
-		   <TD bgcolor='white' > 2020-12-23 18:45:10 </TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:27 </TD>
 	   </TR>
 	   <TR>
 		   <TD bgcolor='white' >Propietario</TD>
@@ -33,9 +33,1941 @@ digraph Tree {
    </TABLE>
 	>];
 
-	AVD0:6->DD0
+	AVD0:0->AVD1
+			
+				AVD1 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: home</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1276524 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD1:0->AVD2
+			
+				AVD2 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: archivos</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1276848 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD2:0->AVD3
+			
+				AVD3 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: mia</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1277172 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD3:0->AVD4
+			
+				AVD4 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: fase2</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1277496 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD4:6->DD0
 
 			DD0 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: fase2</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD3:1->AVD5
+			
+				AVD5 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: carpeta2</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1277820 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD5:6->DD1
+
+			DD1 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: carpeta2</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD3:2->AVD6
+			
+				AVD6 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: z</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1278144 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD6:6->DD2
+
+			DD2 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: z</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD3:3->AVD7
+			
+				AVD7 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: carpeta3</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1278468 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD7:0->AVD8
+			
+				AVD8 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: carpeta7</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1278792 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD8:0->AVD9
+			
+				AVD9 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: carpeta8</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1279116 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD9:0->AVD10
+			
+				AVD10 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: carpeta9</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1279440 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD10:0->AVD11
+			
+				AVD11 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: carpeta10</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1279764 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD11:0->AVD12
+			
+				AVD12 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: carpeta11</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1280088 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD12:6->DD3
+
+			DD3 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: carpeta11</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD11:6->DD4
+
+			DD4 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: carpeta10</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD10:6->DD5
+
+			DD5 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: carpeta9</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD9:6->DD6
+
+			DD6 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: carpeta8</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD8:6->DD7
+
+			DD7 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: carpeta7</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD7:6->DD8
+
+			DD8 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: carpeta3</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD3:4->AVD13
+			
+				AVD13 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: carpeta4</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1280412 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD13:0->AVD14
+			
+				AVD14 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: carpeta7</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1280736 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD14:0->AVD15
+			
+				AVD15 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: carpeta8</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1281060 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD15:0->AVD16
+			
+				AVD16 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: carpeta9</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1281384 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD16:0->AVD17
+			
+				AVD17 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: carpeta10</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1281708 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD17:0->AVD18
+			
+				AVD18 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: carpeta11</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1282032 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD18:0->AVD19
+			
+				AVD19 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: carpeta7</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1282356 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD19:0->AVD20
+			
+				AVD20 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: carpeta8</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1282680 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD20:0->AVD21
+			
+				AVD21 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: carpeta9</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1283004 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD21:0->AVD22
+			
+				AVD22 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: carpeta10</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1283328 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD22:0->AVD23
+			
+				AVD23 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: carpeta11</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='white' >Fecha creación</TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:31 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Propietario</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Grupo</TD>
+		   <TD bgcolor='white' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >Permisos</TD>
+		   <TD bgcolor='white' > 664 </TD>
+	   </TR>
+	   
+	   <TR>
+		   <TD  bgcolor='white' >Apuntador Directorio</TD>
+		   <TD  bgcolor='white' PORT="6"> 1283652 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >Dir--</TD>
+		   <TD  bgcolor='white' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD23:6->DD9
+
+			DD9 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: carpeta11</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD22:6->DD10
+
+			DD10 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: carpeta10</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD21:6->DD11
+
+			DD11 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: carpeta9</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD20:6->DD12
+
+			DD12 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: carpeta8</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD19:6->DD13
+
+			DD13 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: carpeta7</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD18:6->DD14
+
+			DD14 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: carpeta11</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD17:6->DD15
+
+			DD15 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: carpeta10</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD16:6->DD16
+
+			DD16 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: carpeta9</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD15:6->DD17
+
+			DD17 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: carpeta8</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD14:6->DD18
+
+			DD18 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: carpeta7</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD13:6->DD19
+
+			DD19 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: carpeta4</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD3:6->DD20
+
+			DD20 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: mia</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD2:6->DD21
+
+			DD21 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: archivos</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD1:6->DD22
+
+			DD22 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: home</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].Nombre</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='white' >[0].FechaCreacion</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].FechaModificación</TD>
+		   <TD bgcolor='white' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="0" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="1" > 0 </TD>
+	   </TR>
+				<TR>
+		   <TD bgcolor='white' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='white' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="3" > 0 </TD>
+	   </TR>
+		
+		<TR>
+		   <TD bgcolor='white' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='white' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='white' >ApuntadorDD</TD>
+		   <TD  bgcolor='white' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	AVD0:6->DD23
+
+			DD23 [label=<
 	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
 	   <TR> 
 		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Detalles: /</font></TD>
@@ -46,11 +1978,11 @@ digraph Tree {
 	   </TR>
 	   <TR>
 		   <TD bgcolor='white' >[0].FechaCreacion</TD>
-		   <TD bgcolor='white' > 2020-12-23 18:45:10 </TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:27 </TD>
 	   </TR>
 		<TR>
 		   <TD bgcolor='white' >[0].FechaModificación</TD>
-		   <TD bgcolor='white' > 2020-12-23 18:45:10 </TD>
+		   <TD bgcolor='white' > 2020-12-23 22:50:27 </TD>
 	   </TR>
 		<TR>
 		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
@@ -82,7 +2014,7 @@ digraph Tree {
    </TABLE>
 	>];
 
-	DD0:0->Inodo0
+	DD23:0->Inodo0
 			
 				Inodo0 [label=<
 	<TABLE   cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            

@@ -392,72 +392,47 @@ func GenerarBitacora(NoBitacora int, BitacoraAux *estructuras.Bitacora) string {
 	return cadena
 
 }
-func GenerarAVD2(NoAVD int, AVDaux *estructuras.AVD) string {
+func GenerarAVD3(NoAVD int, AVDaux *estructuras.AVD) string {
 
 	n := bytes.Index(AVDaux.NombreDir[:], []byte{0})
 	if n == -1 {
 		n = len(AVDaux.NombreDir)
 	}
-	Directorio := string(AVDaux.NombreDir[:n])
 
 	n = bytes.Index(AVDaux.FechaCreacion[:], []byte{0})
 	if n == -1 {
 		n = len(AVDaux.FechaCreacion)
 	}
-	Fecha := string(AVDaux.FechaCreacion[:n])
 
 	n = bytes.Index(AVDaux.Proper[:], []byte{0})
 	if n == -1 {
 		n = len(AVDaux.Proper)
 	}
-	Propietario := string(AVDaux.Proper[:n])
 
 	n = bytes.Index(AVDaux.Grupo[:], []byte{0})
 	if n == -1 {
 		n = len(AVDaux.Grupo)
 	}
-	Grupo := string(AVDaux.Grupo[:n])
 
 	cadena := fmt.Sprintf(`AVD%v [label=<
 	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
-	   <TR> 
-		   <TD bgcolor='white' colspan="2"><font color='black' point-size='13'>Directorio: %s</font></TD>
-	   </TR>
-	   <TR> 
-		   <TD bgcolor='white' >Fecha creación</TD>
-		   <TD bgcolor='white' > %s </TD>
-	   </TR>
-	   <TR>
-		   <TD bgcolor='white' >Propietario</TD>
-		   <TD bgcolor='white' > %s </TD>
-	   </TR>
-	   <TR>
-		   <TD bgcolor='white' >Grupo</TD>
-		   <TD bgcolor='white' > %s </TD>
-	   </TR>
-	   <TR>
-		   <TD bgcolor='white' >Permisos</TD>
-		   <TD bgcolor='white' > %v%v%v </TD>
-	   </TR>
+	   
 	   
 	   <TR>
 		   <TD  bgcolor='white' >Apuntador Directorio</TD>
 		   <TD  bgcolor='white' PORT="6"> %v </TD>
 	   </TR>
-	   <TR>
-		   <TD  bgcolor='white' >Dir--</TD>
-		   <TD  bgcolor='white' PORT="7"> %v</TD>
-	   </TR>
+	  
    </TABLE>
 	>];
 
-	`, NoAVD, Directorio, Fecha, Propietario, Grupo, AVDaux.PermisoU, AVDaux.PermisoG, AVDaux.PermisoO, AVDaux.ApuntadorDD, AVDaux.ApuntadorAVD)
+	`, NoAVD, AVDaux.ApuntadorDD)
 
 	return cadena
 }
 
 //GenerarDD devuelve un DD seteado en formato string
-func GenerarDD2(NoDD int, DDaux *estructuras.DD, carpeta string) string {
+func GenerarDD3(NoDD int, DDaux *estructuras.DD, carpeta string) string {
 
 	// i = 0
 

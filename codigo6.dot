@@ -11,8 +11,8 @@ digraph H {
    <tr><td>s_Free_Inodos</td><td>50628</td></tr>
    <tr><td>s_Free_Bloques</td><td>202514</td></tr>
    <tr><td>s_mtime</td><td>2020-12-23 14:56:52</td></tr>
-   <tr><td>Fecha montaje</td><td>2020-12-23 18:45:10</td></tr>
-   <tr><td>s_mnt_count</td><td>25</td></tr>
+   <tr><td>Fecha montaje</td><td>2020-12-23 22:50:27</td></tr>
+   <tr><td>s_mnt_count</td><td>42</td></tr>
    <tr><td>s_Magic</td><td>0xEF53</td></tr>
    <tr><td>S_inode_size</td><td>84</td></tr>
    <tr><td>s_block_size</td><td>25</td></tr>

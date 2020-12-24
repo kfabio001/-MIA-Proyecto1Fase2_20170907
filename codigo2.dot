@@ -7,7 +7,7 @@ digraph Tree {
 	   </TR>
 	   <TR> 
 		   <TD bgcolor='white' >Fecha creación</TD>
-		   <TD bgcolor='white' > 2020-12-23 18:45:10 </TD>
+		   <TD bgcolor='white' > 2020-12-23 21:07:10 </TD>
 	   </TR>
 	   <TR>
 		   <TD bgcolor='white' >Propietario</TD>
@@ -46,11 +46,11 @@ digraph Tree {
 	   </TR>
 	   <TR>
 		   <TD bgcolor='white' >[0].FechaCreacion</TD>
-		   <TD bgcolor='white' > 2020-12-23 18:45:10 </TD>
+		   <TD bgcolor='white' > 2020-12-23 21:07:10 </TD>
 	   </TR>
 		<TR>
 		   <TD bgcolor='white' >[0].FechaModificación</TD>
-		   <TD bgcolor='white' > 2020-12-23 18:45:10 </TD>
+		   <TD bgcolor='white' > 2020-12-23 21:07:10 </TD>
 	   </TR>
 		<TR>
 		   <TD bgcolor='white' >[0].ApuntadorInodo</TD>
