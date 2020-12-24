@@ -1,0 +1,154 @@
+digraph Tree {
+		node [shape=plaintext];
+		AVD0 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='purple' colspan="2"><font color='white' point-size='13'>AVD: /</font></TD>
+	   </TR>
+	   <TR> 
+		   <TD bgcolor='slateblue2' >Fecha creación</TD>
+		   <TD bgcolor='slateblue2' > 2020-12-23 14:21:28 </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='slateblue2' >Propietario</TD>
+		   <TD bgcolor='slateblue2' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='slateblue2' >Grupo</TD>
+		   <TD bgcolor='slateblue2' > root </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='slateblue2' >Permisos</TD>
+		   <TD bgcolor='slateblue2' > 777 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='green1' >Subdirectorios[0]</TD>
+		   <TD  bgcolor='green1' PORT="0"> 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='green1' >Subdirectorios[1]</TD>
+		   <TD  bgcolor='green1' PORT="1"> 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='green1' >Subdirectorios[2]</TD>
+		   <TD  bgcolor='green1' PORT="2"> 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='green1' >Subdirectorios[3]</TD>
+		   <TD  bgcolor='green1' PORT="3"> 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='green1' >Subdirectorios[4]</TD>
+		   <TD  bgcolor='green1' PORT="4"> 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='green1' >Subdirectorios[5]</TD>
+		   <TD  bgcolor='green1' PORT="5"> 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='hotpink' >ApuntadorDD</TD>
+		   <TD  bgcolor='hotpink' PORT="6"> 1276200 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='orange' >ApuntadorAVD</TD>
+		   <TD  bgcolor='orange' PORT="7"> 0</TD>
+	   </TR>
+   </TABLE>
+	>];
+
+	AVD0:6->DD0
+
+			DD0 [label=<
+	<TABLE BORDER="1"  cellpadding="2"   CELLBORDER="1" CELLSPACING="4" BGCOLOR="blue4" color = 'black'>            
+	   <TR> 
+		   <TD bgcolor='purple' colspan="2"><font color='white' point-size='13'>DD: /</font></TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='khaki' >[0].Nombre</TD>
+		   <TD bgcolor='khaki' > users.txt </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='khaki' >[0].FechaCreacion</TD>
+		   <TD bgcolor='khaki' > 2020-12-23 14:21:28 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='khaki' >[0].FechaModificación</TD>
+		   <TD bgcolor='khaki' > 2020-12-23 14:21:28 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='coral' >[0].ApuntadorInodo</TD>
+		   <TD bgcolor='coral' PORT="0" > 4607654 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='khaki' >[1].Nombre</TD>
+		   <TD bgcolor='khaki' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='khaki' >[1].FechaCreacion</TD>
+		   <TD bgcolor='khaki' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='khaki' >[1].FechaModificación</TD>
+		   <TD bgcolor='khaki' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='coral' >[1].ApuntadorInodo</TD>
+		   <TD bgcolor='coral' PORT="1" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='khaki' >[2].Nombre</TD>
+		   <TD bgcolor='khaki' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='khaki' >[2].FechaCreacion</TD>
+		   <TD bgcolor='khaki' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='khaki' >[2].FechaModificación</TD>
+		   <TD bgcolor='khaki' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='coral' >[2].ApuntadorInodo</TD>
+		   <TD bgcolor='coral' PORT="2" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='khaki' >[3].Nombre</TD>
+		   <TD bgcolor='khaki' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='khaki' >[3].FechaCreacion</TD>
+		   <TD bgcolor='khaki' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='khaki' >[3].FechaModificación</TD>
+		   <TD bgcolor='khaki' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='coral' >[3].ApuntadorInodo</TD>
+		   <TD bgcolor='coral' PORT="3" > 0 </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='khaki' >[4].Nombre</TD>
+		   <TD bgcolor='khaki' >  </TD>
+	   </TR>
+	   <TR>
+		   <TD bgcolor='khaki' >[4].FechaCreacion</TD>
+		   <TD bgcolor='khaki' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='khaki' >[4].FechaModificación</TD>
+		   <TD bgcolor='khaki' >  </TD>
+	   </TR>
+		<TR>
+		   <TD bgcolor='coral' >[4].ApuntadorInodo</TD>
+		   <TD bgcolor='coral' PORT="4" > 0 </TD>
+	   </TR>
+	   <TR>
+		   <TD  bgcolor='springgreen' >ApuntadorDD</TD>
+		   <TD  bgcolor='springgreen' PORT="5"> 0 </TD>
+	   </TR>
+
+   </TABLE>
+	>];
+
+	}

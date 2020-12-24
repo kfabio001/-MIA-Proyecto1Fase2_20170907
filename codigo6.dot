@@ -1,0 +1,27 @@
+digraph H {
+ node [ shape=plain] 
+ table [ label = <
+  <table border='1' cellborder='1'>
+   <tr><td>Atributo</td><td>Valor</td></tr>
+   <tr><td>s_filesystem_type</td><td>3</td></tr>
+   <tr><td>s_inodes_count</td><td>50630</td></tr>
+   <tr><td>s_blocks_count</td><td>202520</td></tr>
+   <tr><td>s_Inodos_usados</td><td>2</td></tr>
+   <tr><td>s_Bloques_usados</td><td>6</td></tr>
+   <tr><td>s_Free_Inodos</td><td>50628</td></tr>
+   <tr><td>s_Free_Bloques</td><td>202514</td></tr>
+   <tr><td>s_mtime</td><td>2020-12-23 14:56:52</td></tr>
+   <tr><td>Fecha montaje</td><td>2020-12-23 18:45:10</td></tr>
+   <tr><td>s_mnt_count</td><td>25</td></tr>
+   <tr><td>s_Magic</td><td>0xEF53</td></tr>
+   <tr><td>S_inode_size</td><td>84</td></tr>
+   <tr><td>s_block_size</td><td>25</td></tr>
+   <tr><td>s_first_ino</td><td>4607656</td></tr>
+   <tr><td>s_first_blo</td><td>9063100</td></tr>
+   <tr><td>s_bm_inode_start</td><td>4557024</td></tr>
+   <tr><td>s_inode_start</td><td>4607654</td></tr>
+   <tr><td>s_bm_block_start</td><td>8860574</td></tr>
+   <tr><td>s_block_start</td><td>9063094</td></tr>
+  </table>
+ > ]
+}
